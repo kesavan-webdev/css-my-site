@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: cursive;
+    color: #005F99;
+}
+.instagram:hover{
+    color: #ffffff;
+    background-color: #E4405F;
+    
+}
+.linkedin:hover{
+    color: #ffffff;
+    background-color: #005F99;
+}
+.github:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-top: 50 auto 0 auto ;
+    line-height: 2;
+}
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.top-container{
+    background-color: #00ebd3;
+    /* background-image: url(../images/data-science.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 20px; */
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container img{
+    width: 100px;
+    border-radius: 100%;
+    margin: 3rem auto;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 30px ;
+    left: 0px;
+    animation: top-animate 30s linear infinite;
+   
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    animation: bot-animates 17s ease-in-out infinite;
+}
+.frontend img{
+    max-width: 5%;
+    margin-right: 10px;
+}
+.bottom-container {
+    background-color: #F2FA5A;
+    height: 10rem;
+    position: relative;
+    bottom: 0px;
+    overflow: hidden;
+}
+.bottom-container p{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.bottom-container a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 40px 20px 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10%;
+}
+hr{
+    border: 10px dotted #f8e004;
+    border-bottom: none;
+    width: 5%;
+    opacity: .4;
+    margin: 40px auto
+}
+table{
+    margin: auto;
+    border: 1px solid#000000;
+    padding: 2rem;   
+}
+tr{
+    padding: 1rem;
+    margin: auto;
+}
+td{
+    padding: 1rem;
+}
+.button{
+    color: #000000;
+    border: 1px solid black;
+    border-radius: .7rem;
+    padding: .3rem;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: darkgray;
+}
+@keyframes top-animate{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(350px);
+    }
+    50%{
+        transform: translateX(700px);
+    }
+    75%{
+        transform: translateX(1050px);
+    }
+    100%{
+        transform: translateX(1400px);
+    }
+}
+
+@keyframes bot-animates{
+    0%{
+        transform: translateX(-70px);
+    }
+    25%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateX(650px);
+    }
+    75%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(1400px);
+    }
+}
